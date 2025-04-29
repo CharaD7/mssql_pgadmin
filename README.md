@@ -24,6 +24,7 @@
 
 
 ## Installing & Setting up PostgreSQL Server for Ubuntu
+
 - To install PostgreSQL, run the following command:
 ```bash
 sudo apt install postgresql postgresql-contrib
@@ -48,6 +49,7 @@ GRANT ALL PRIVILEGES ON DATABASE your_database_name TO postgres;
 
 
 ## Restoring MSSQL Database Backup to PostgreSQL
+
 - Install pgloader using `sudo apt install pgloader`
 - To restore your MSSQL database backup to your PostgreSQL database, run the following command:
 ```bash
