@@ -55,4 +55,5 @@ pgloader mssql://<username>:<password>@<server>:<port>/<database> pgsql://<usern
 ```
 
 [!note]
+
 Supplying port number is not  mandatory, unless you have set a custom port number for MSSQL server and/or postgreSQL server.
