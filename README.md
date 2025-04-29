@@ -56,6 +56,7 @@ GRANT ALL PRIVILEGES ON DATABASE your_database_name TO postgres;
 pgloader mssql://<username>:<password>@<server>:<port>/<database> pgsql://<username>:<password>@<server>:<port>/<database>
 ```
 
-:::info
-Supplying port number is not  mandatory, unless you have set a custom port number for MSSQL server and/or postgreSQL server.
-:::
+> ***NB***
+> Supplying port number is not  mandatory, unless you have set a custom port 
+> number for MSSQL server and/or postgreSQL server.
+
